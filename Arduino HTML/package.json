@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "johnny-five": "latest",
+        "socket.io": "latest",
+        "url": "latest",
+        "express": "latest"
+    }
+}

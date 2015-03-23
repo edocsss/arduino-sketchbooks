@@ -1,0 +1,132 @@
+div#header, div#buttons, div#display, div#ldr {
+    text-align: center;
+}
+
+div#header {
+    margin-bottom: 3em;
+}
+
+button#led-on {
+    margin-right: 2em;
+}
+
+button#led-off {
+    margin-left: 2em;
+}
+
+.category-header {
+    margin-top: auto;
+    font-weight: 500;
+}
+
+.jumbotron {
+    width: 20em;
+    margin-right: 5.1em;
+    padding-top: 0;
+    padding-bottom: 13px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: #F8F8F8;
+    background: transparent;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.action-container {
+    float: left;
+    overflow: hidden;
+    border: 1px solid #222;
+}
+
+.action-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 2.2em;
+    width: auto;
+    margin-bottom: 1em;
+    padding-top: 2px;
+    background-color: #222;
+    color: #ecf0f1;
+}
+
+.buttons {
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#display {
+    width: 31em;
+}
+
+input[placeholder] {
+    text-align: center;
+}
+
+#lcd_text1 {
+    margin-bottom: 1em;
+}
+
+div#question_write {
+    float: right;
+    margin-top: 1em;
+}
+
+span.glyphicon-question-sign {
+    top: 6px;
+    right: 7px;
+    font-size: 1.5em;
+}
+
+span.glyphicon-question-sign:hover {
+    cursor: pointer;
+}
+
+button#write_text, button#reset_text {
+    margin-top: 0;
+}
+
+button#reset_text {
+    margin-left: 0.5em;
+}
+
+img#lcd_shield_img {
+    width: 20em;
+    margin-top: 1em;
+}
+
+div#ldr {
+    margin-right: auto;
+    padding-bottom: 9px;
+}
+
+#ldr .action-title {
+    margin-bottom: 0.5em;
+}
+
+div#ldr-reading {
+    font-size: 2.3em;
+}
+
+<!-- MEDIA QUERIES -->
+@media (min-width: 992px) and (max-width: 1199px) {
+    div#display {
+        width: 20em;
+    }
+    
+    div#buttons {
+        width: 18.5em;
+    }
+}
+
+@media (max-width: 991px) {
+    .action-container {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
